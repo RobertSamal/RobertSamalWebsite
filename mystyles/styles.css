@@ -1,0 +1,58 @@
+
+
+body{
+
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: metropolis;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+ul{
+    list-style: none;
+
+}
+
+/* Note that all the above codes will be affected thorughout the entire page */
+
+/*               Navigation Bar            */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul{
+    display: flex;
+
+}
+
+nav ul li a{
+    height: 40px;
+    margin: 5px;
+    padding: 0px 10px;
+    line-height: 40px;
+    display: flex;
+    font-size: 1.1 rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 10px;
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: rgb(197, 105, 0);
+    box-shadow: 5px 5px 5px rgb(238, 255, 4);
+}
