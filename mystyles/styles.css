@@ -56,3 +56,197 @@ nav ul li a:hover{
     color: rgb(197, 105, 0);
     box-shadow: 5px 5px 5px rgb(238, 255, 4);
 }
+
+.active {
+    color: yellow;
+}
+
+.main{
+    width: 100%;
+    height: 980px;
+    position: relative;
+    background-image: url("/images/computer2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+
+}
+
+.main-part {
+    width: 500px;
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    font-family: Futura Book;
+    transform: translate(-15%, -47%);
+
+}
+
+.main-part h1{
+    font-size: 50px;
+    color: white;
+}
+
+.main-part p{
+    color: antiquewhite;
+    width: 400px;
+}
+
+.main-part a{
+    background-color: yellow;
+    box-sizing: border-box;
+    color: black;
+    font-family: Elephant;
+    padding: 10px 20px;
+    margin: 20px 10px ;
+    font-weight: bold; 
+    transition: 0.4s ease-in-out;
+}
+
+.main-part a:hover{
+    background-color: rgb(255, 253, 252);
+    color: rgb(0, 0, 0);
+}
+
+.features{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.features-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-box{
+    background: transparent;
+    width: 300px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: yellow;
+}
+
+.f-text{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: arial unicode ms;
+}
+
+
+.f-text h4{
+    margin-top: 65px;
+}
+
+.f-text a{
+    color: white;
+    background-color: blue;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    font-weight: bold;
+}
+
+.f-text a:hover{
+    color: black;
+    background-color: yellow;
+
+}
+
+.contact{
+    width: 100%;
+    height: 90vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 500px;
+}
+
+.contact-heading{
+    color: white;
+    text-align: center;
+    margin: 40px opx;
+    margin-bottom: 88px;
+}
+
+.contact-heading h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.2rem;
+
+}
+
+.contact form{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact form input, .contact form textarea{
+    width: 100%;
+    height: 35px;
+    margin: 5px 0px;
+    padding: 8px;
+    border-radius: 8px;
+    
+
+}
+
+.contact form textarea{
+    height: 130px;
+}
+
+.contact-btn{
+    background-color: yellow;
+    color: black;
+    margin: 20px 0px;
+    height: 35px;
+    width: 80px;
+    font-weight: bold;
+    font-family: metropolis;
+    transition: 0.4s ease-in-out;
+}
+
+.contact-btn:hover{
+    color: white;
+    background-color: blue;
+}
+
+.about{
+    height: 110vh;
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5% 0px 5%;
+    position: relative;
+}
+
+
+.about-text{
+    width: 45%;
+    text-align: right;
+}
