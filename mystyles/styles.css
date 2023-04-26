@@ -178,7 +178,7 @@ nav ul li a:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 500px;
+    margin-top: 15px;
 }
 
 .contact-heading{
@@ -210,13 +210,39 @@ nav ul li a:hover{
     margin: 5px 0px;
     padding: 8px;
     border-radius: 8px;
+    background-color: rgb(59, 59, 59);
+    color: #eeff00;
+    font-weight: bold;
+    font-family: metropolis;
+    font-size: 1.2rem;
     
 
+}
+
+
+/* Styling the place holders of the form */
+.contact form input[type="text"]::placeholder, .contact form input[type="email"]::placeholder, .contact form textarea::placeholder {
+    
+    color: #ffffff;
+    font-family: Gill sans mt;
+
+}
+
+/* Styling once you have clicked in the textfield */
+.contact form input[type="text"]:focus, .contact form input[type="email"]:focus, .contact form textarea:focus{
+    color: #eeff00;
+    font-weight: bold;
+    font-family: metropolis;
+    font-size: 1.2rem;
+    background-color: rgb(0, 0, 0);
+    /* change to the desired color */
 }
 
 .contact form textarea{
     height: 130px;
 }
+
+
 
 .contact-btn{
     background-color: yellow;
@@ -249,4 +275,68 @@ nav ul li a:hover{
 .about-text{
     width: 45%;
     text-align: right;
+}
+
+.about-text h2{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.main-btn{
+    color: black;
+    background-color: yellow;
+    padding: 10px;
+    margin: 0 15px 0 0;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+.main-btn:hover{
+    color: white;
+     background-color: blue;
+}
+
+.ending{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    color: white;
+
+}
+
+.ending div{
+    background-color: rgb(49, 49, 49);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.a{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ending div div{
+    align-items: center;
+    width: 250px;
+
+
+}
+
+.ending img{
+    width: 120px;
+    align-items: center;
+}
+
+.ending p{
+
+    margin-top: 50px;
+    font-family: Dubai;
+    font-size: 1.2rem;
+
+
 }
