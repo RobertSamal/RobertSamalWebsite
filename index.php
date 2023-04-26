@@ -94,11 +94,21 @@
 
         <form action="userinformation.php" method="post">
             <input type="text" name="user" placeholder="Your Full Name" required="">
-            <input type="email" name="emial" placeholder="Your Email">
-            <textarea name="message" placeholder="Type your message"  cols="30" rows="10"></textarea>
-            <button class="main-btn contact-btn" type="submit">Continue</button>
+            <input type="email" name="emial" placeholder="Your Email" required="">
+            <textarea name="message" placeholder="Type your message"  cols="30" rows="10" required=""></textarea>
+            <button class="main-btn contact-btn" type="submit" >Continue</button>
 
         </form>
+    </section> 
+
+    <section class="ending">
+        <div>
+            <p>From the same creators of</p>
+            <div>
+                <img src="images/gymlogo.png" alt="picture of what i have been working on" class="ending-img">
+            </div>
+            <p class="a">Copyright &copy2023 Robert_Samal</p>
+        </div>
     </section>
     
 </body>
