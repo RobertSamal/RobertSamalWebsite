@@ -15,7 +15,7 @@
     width: 100%;
     height: 600px;
     position: relative;
-    background-image: url(/images/aboutbackgr.jpg);
+    background-image: url(./images/aboutbackgr.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
