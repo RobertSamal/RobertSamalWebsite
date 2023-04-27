@@ -10,7 +10,20 @@
 </head>
 <body color-"color:white;">
     <section class="main">
-        <nav>
+        <style>
+            .main{
+    width: 100%;
+    height: 980px;
+    position: relative;
+    background-image: url("./images/computer2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+
+}
+        </style>
+        <nav>       
             <a href="#" class="logo">
                 <img src="images/menulogo.png" alt="This is the menu" style="width: 70px;">
             </a>
@@ -94,7 +107,7 @@
 
         <form action="userinformation.php" method="post">
             <input type="text" name="user" placeholder="Your Full Name" required="">
-            <input type="email" name="emial" placeholder="Your Email" required="">
+            <input type="email" name="email" placeholder="Your Email" required="">
             <textarea name="message" placeholder="Type your message"  cols="30" rows="10" required=""></textarea>
             <button class="main-btn contact-btn" type="submit" >Continue</button>
 
@@ -110,6 +123,7 @@
             <p class="a">Copyright &copy2023 Robert_Samal</p>
         </div>
     </section>
+    
     
 </body>
 </html>
