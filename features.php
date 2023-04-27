@@ -49,7 +49,7 @@
     </section>
 
 
-    <section class="about">
+    <section class="about" style="height: 60vh">
         <div class="about-img">
             <img src="images/mypic.jpg" style="transform: scaleX(-1);" alt="My picture" width=400px>
         </div>
@@ -60,33 +60,19 @@
         </div>
     </section>
 
-    <section class="about">
-        <div class="about-img">
-            <img src="images/whatwedo.png" style="transform: scaleX(-1)"alt="My picture" width=400px>
-        </div>
+    <section class="about" style="height: 80vh">
+
         <div class="about-text">
             <h2>What we do</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit sapiente, ipsa aspernatur soluta, alias ipsam eveniet quaerat maxime, laborum odio recusandae. Quisquam, dolorum.</p>
             <a href="about.php" class="main-btn">See More</a>
         </div>
+
+        <div class="about-img">
+            <img src="images/whatwedo.png" alt="My picture" width=400px>
+        </div>
     </section>
     
-
-    <section class="contact">
-        <div class=contact-heading>
-            <h1>Contact Me</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ea laborum perferendis.</p>
-        </div>
-
-        <form action="userinformation.php" method="post">
-            <input type="text" name="user" placeholder="Your Full Name" required="">
-            <input type="email" name="emial" placeholder="Your Email" required="">
-            <textarea name="message" placeholder="Type your message"  cols="30" rows="10" required=""></textarea>
-            <button class="main-btn contact-btn" type="submit" >Continue</button>
-
-        </form>
-    </section> 
-
     <section class="ending">
         <div>
             <p>From the same creators of</p>
