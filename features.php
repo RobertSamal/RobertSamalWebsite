@@ -17,7 +17,7 @@
     width: 100%;
     height: 980px;
     position: relative;
-    background-image: url("/images/featuresback.jpg");
+    background-image: url("./images/featuresback.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
