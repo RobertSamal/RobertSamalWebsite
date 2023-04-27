@@ -15,7 +15,7 @@
     width: 100%;
     height: 980px;
     position: relative;
-    background-image: url("/images/contactbackground.jpg");
+    background-image: url("./images/contactbackground.jpg");
     transform-image: scaleX(-1);
     background-size: cover;
     background-repeat: no-repeat;
